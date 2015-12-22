@@ -32,8 +32,8 @@ static int init_remote(void)
 static int remote_detect_key(void)
 {
 	unsigned power_key;
-	if (((readl(AO_IR_DEC_STATUS))>>3) & 0x1) {
-		power_key = readl(AO_IR_DEC_FRAME);
+	if (((readl(AO_MF_IR_DEC_STATUS))>>3) & 0x1) {
+		power_key = readl(AO_MF_IR_DEC_FRAME);
 		if ((power_key&IR_POWER_KEY_MASK) == kk[DECODEMODE_NEC])
 			return 1;
 
