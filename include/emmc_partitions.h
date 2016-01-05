@@ -20,9 +20,9 @@
 
 #define     AML_MMC_DBG
 
-#define     MAX_DEVICE_NUM                  16
+#define     MAX_DEVICE_NUM                  32
 #define     MAX_DEVICE_NAME_LEN             16
-#define     MAX_MMC_PART_NUM                16
+#define     MAX_MMC_PART_NUM                32
 #define     MAX_MMC_PART_NAME_LEN           16
 
 #define		SZ_1M							0x100000
