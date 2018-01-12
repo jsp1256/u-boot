@@ -12,7 +12,7 @@
 #./check_compile.sh            -check amlogic board configs
 #./check_compile.sh cus        -check customer board configs
 #./check_compile.sh all        -check both amlogic and customer boards
-
+#
 
 folder_board="board/amlogic"
 customer_folder="customer/board"
